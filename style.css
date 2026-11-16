@@ -1,0 +1,26 @@
+h1 {
+    align-items: center;
+}
+
+#new-grid-btn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+  border: 2px solid black;
+}
+
+.square {
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
